@@ -109,7 +109,15 @@ node server.js
 ```
 
 3. Use Postman or frontend to test APIs
-
+  
+4. Remember: The .env file contains sensitive information and should not be shared. Example contents:
+```
+PORT=5002
+DB_PATH=./finance.db
+JWT_SECRET=
+FRONTEND_URL=http://127.0.0.1:5500
+```
+#### The base URL for the backend API is http://localhost:5002.
 ---
 
 ##  Why this Architecture?
