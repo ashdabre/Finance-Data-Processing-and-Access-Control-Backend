@@ -1,6 +1,6 @@
 # Finance Dashboard Backend
 
-## 📌 Overview
+##  Overview
 
 This project is a backend system for managing financial records with role-based access control.
 
@@ -13,7 +13,7 @@ It supports:
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 The project follows a modular architecture:
 
@@ -30,14 +30,14 @@ This separation improves:
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 * JWT-based authentication
 * Token required for protected routes
 
 ---
 
-## 👥 Roles
+##  Roles
 
 | Role    | Permissions    |
 | ------- | -------------- |
@@ -47,7 +47,7 @@ This separation improves:
 
 ---
 
-## 💰 Financial Records
+##  Financial Records
 
 Each record contains:
 
@@ -64,7 +64,7 @@ Supported operations:
 
 ---
 
-## 📊 Dashboard APIs
+##  Dashboard APIs
 
 * Total income
 * Total expenses
@@ -72,14 +72,14 @@ Supported operations:
 
 ---
 
-## 🔍 Filtering
+##  Filtering
 
 Example:
 GET /records?type=income&category=salary
 
 ---
 
-## ⚠️ Validation & Error Handling
+##  Validation & Error Handling
 
 * Missing fields handled
 * Invalid login handled
@@ -87,14 +87,14 @@ GET /records?type=income&category=salary
 
 ---
 
-## 🗄 Database
+##  Database
 
 * SQLite used for simplicity
 * Persistent storage via `better-sqlite3`
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install dependencies
 
@@ -112,7 +112,7 @@ node server.js
 
 ---
 
-## 🎯 Why this Architecture?
+##  Why this Architecture?
 
 * Separation of concerns
 * Easy debugging
@@ -121,21 +121,26 @@ node server.js
 
 ---
 
-## ✅ Features Completed
+##  Features Completed
 
-✔ User & Role Management
-✔ Financial Records CRUD
-✔ Filtering
-✔ Dashboard Summary APIs
-✔ Role-Based Access Control
-✔ Validation & Error Handling
-✔ Data Persistence
+1. User & Role Management
+2. Financial Records CRUD
+3. Filtering
+4. Dashboard Summary APIs
+5. Role-Based Access Control
+6. Validation & Error Handling
+7. Data Persistence
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Password hashing (bcrypt)
 * Pagination
 * Charts in frontend
 * Advanced analytics
+
+  ---
+
+  ## API Documentation:
+  https://ashal11-3338773.postman.co/workspace/655892f6-97f3-4d3c-86d5-6f41e1cefc7a/collection/53687501-886fb71b-76c1-4f5d-8ce7-0e5a2beca9dc?action=share&source=copy-link&creator=53687501
