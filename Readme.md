@@ -6,10 +6,10 @@ This project is a backend system for managing financial records with role-based 
 
 It supports:
 
-* User management
-* Financial record tracking
-* Dashboard summaries
-* Secure API access
+1. User management
+2. Financial record tracking
+3. Dashboard summaries
+4. Secure API access
 
 ---
 
@@ -24,16 +24,16 @@ The project follows a modular architecture:
 
 This separation improves:
 
-* Maintainability
-* Scalability
-* Code readability
+1. Maintainability
+2. Scalability
+3. Code readability
 
 ---
 
 ##  Authentication
 
-* JWT-based authentication
-* Token required for protected routes
+ JWT-based authentication
+ Token required for protected routes
 
 ---
 
@@ -58,9 +58,9 @@ Each record contains:
 
 Supported operations:
 
-* Create
-* Read
-* Filter by date/category/type
+1 Create
+2 Read
+3 Filter by date/category/type
 
 ---
 
@@ -89,8 +89,8 @@ GET /records?type=income&category=salary
 
 ##  Database
 
-* SQLite used for simplicity
-* Persistent storage via `better-sqlite3`
+ SQLite used for simplicity
+ Persistent storage via `better-sqlite3`
 
 ---
 
